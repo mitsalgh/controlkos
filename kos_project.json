@@ -1,0 +1,494 @@
+{
+  "title": "Kos Project",
+  "image": null,
+  "mobileHide": false,
+  "mobileOrder": null,
+  "configuration": {
+    "description": "",
+    "widgets": {
+      "ed282042-4805-761b-ee0f-411820ff3d83": {
+        "typeFullFqn": "system.control_widgets.round_switch",
+        "type": "rpc",
+        "sizeX": 2.5,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#e6e7e8",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "title": "Kamar 1",
+            "initialValue": false,
+            "retrieveValueMethod": "rpc",
+            "valueKey": "value",
+            "getValueMethod": "setValueRelay",
+            "parseValueFunction": "return data ? true : false;",
+            "setValueMethod": "setValueRelay",
+            "convertValueFunction": "return value;",
+            "requestTimeout": 500,
+            "requestPersistent": false,
+            "persistentPollingInterval": 5000
+          },
+          "title": "Round switch",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "targetDevice": {
+            "type": "device",
+            "deviceId": "356e4370-745b-11f0-aabc-4752a9b13c42"
+          }
+        },
+        "row": 0,
+        "col": 0,
+        "id": "ed282042-4805-761b-ee0f-411820ff3d83"
+      },
+      "f4a0d5f2-6404-28f3-c83f-67b8a013a230": {
+        "typeFullFqn": "system.control_widgets.round_switch",
+        "type": "rpc",
+        "sizeX": 2.5,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#e6e7e8",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "title": "Kamar 2",
+            "initialValue": false,
+            "retrieveValueMethod": "rpc",
+            "valueKey": "value",
+            "getValueMethod": "setValueRelay1",
+            "parseValueFunction": "return data ? true : false;",
+            "setValueMethod": "setValueRelay1",
+            "convertValueFunction": "return value;",
+            "requestTimeout": 500,
+            "requestPersistent": false,
+            "persistentPollingInterval": 5000
+          },
+          "title": "Round switch",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "targetDevice": {
+            "type": "device",
+            "deviceId": "356e4370-745b-11f0-aabc-4752a9b13c42"
+          }
+        },
+        "row": 0,
+        "col": 0,
+        "id": "f4a0d5f2-6404-28f3-c83f-67b8a013a230"
+      },
+      "f5c339ca-3057-bbe5-0417-db7bb4b084ee": {
+        "typeFullFqn": "system.control_widgets.round_switch",
+        "type": "rpc",
+        "sizeX": 2.5,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#e6e7e8",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "title": "Kamar 3",
+            "initialValue": false,
+            "retrieveValueMethod": "rpc",
+            "valueKey": "value",
+            "getValueMethod": "setValueRelay2",
+            "parseValueFunction": "return data ? true : false;",
+            "setValueMethod": "setValueRelay2",
+            "convertValueFunction": "return value;",
+            "requestTimeout": 500,
+            "requestPersistent": false,
+            "persistentPollingInterval": 5000
+          },
+          "title": "Round switch",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "targetDevice": {
+            "type": "device",
+            "deviceId": "356e4370-745b-11f0-aabc-4752a9b13c42"
+          }
+        },
+        "row": 0,
+        "col": 0,
+        "id": "f5c339ca-3057-bbe5-0417-db7bb4b084ee"
+      },
+      "f5d6514b-c891-0f31-a905-d5c9f665b677": {
+        "typeFullFqn": "system.control_widgets.round_switch",
+        "type": "rpc",
+        "sizeX": 2.5,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#e6e7e8",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "title": "Kamar 4",
+            "initialValue": false,
+            "retrieveValueMethod": "rpc",
+            "valueKey": "value",
+            "getValueMethod": "setValueRelay3",
+            "parseValueFunction": "return data ? true : false;",
+            "setValueMethod": "setValueRelay3",
+            "convertValueFunction": "return value;",
+            "requestTimeout": 500,
+            "requestPersistent": false,
+            "persistentPollingInterval": 5000
+          },
+          "title": "Round switch",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "targetDevice": {
+            "type": "device",
+            "deviceId": "356e4370-745b-11f0-aabc-4752a9b13c42"
+          }
+        },
+        "row": 0,
+        "col": 0,
+        "id": "f5d6514b-c891-0f31-a905-d5c9f665b677"
+      },
+      "dcbc62ac-836f-feb8-f72c-737c6a986faa": {
+        "typeFullFqn": "system.control_widgets.round_switch",
+        "type": "rpc",
+        "sizeX": 2.5,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#e6e7e8",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "title": "Kamar 5",
+            "initialValue": false,
+            "retrieveValueMethod": "rpc",
+            "valueKey": "value",
+            "getValueMethod": "setValueRelay4",
+            "parseValueFunction": "return data ? true : false;",
+            "setValueMethod": "setValueRelay4",
+            "convertValueFunction": "return value;",
+            "requestTimeout": 500,
+            "requestPersistent": false,
+            "persistentPollingInterval": 5000
+          },
+          "title": "Round switch",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "targetDevice": {
+            "type": "device",
+            "deviceId": "356e4370-745b-11f0-aabc-4752a9b13c42"
+          }
+        },
+        "row": 0,
+        "col": 0,
+        "id": "dcbc62ac-836f-feb8-f72c-737c6a986faa"
+      },
+      "b00de97d-0510-4e59-a44f-f5101fa60092": {
+        "typeFullFqn": "system.control_widgets.round_switch",
+        "type": "rpc",
+        "sizeX": 2.5,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#e6e7e8",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "title": "Kamar 6",
+            "initialValue": false,
+            "retrieveValueMethod": "rpc",
+            "valueKey": "value",
+            "getValueMethod": "setValueRelay5",
+            "parseValueFunction": "return data ? true : false;",
+            "setValueMethod": "setValueRelay5",
+            "convertValueFunction": "return value;",
+            "requestTimeout": 500,
+            "requestPersistent": false,
+            "persistentPollingInterval": 5000
+          },
+          "title": "Round switch",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "targetDevice": {
+            "type": "device",
+            "deviceId": "356e4370-745b-11f0-aabc-4752a9b13c42"
+          }
+        },
+        "row": 0,
+        "col": 0,
+        "id": "b00de97d-0510-4e59-a44f-f5101fa60092"
+      },
+      "d8b3e759-6c51-89e3-020c-c007076f3fe0": {
+        "typeFullFqn": "system.control_widgets.round_switch",
+        "type": "rpc",
+        "sizeX": 2.5,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#e6e7e8",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "title": "Kamar 7",
+            "initialValue": false,
+            "retrieveValueMethod": "rpc",
+            "valueKey": "value",
+            "getValueMethod": "setValueRelay6",
+            "parseValueFunction": "return data ? true : false;",
+            "setValueMethod": "setValueRelay6",
+            "convertValueFunction": "return value;",
+            "requestTimeout": 500,
+            "requestPersistent": false,
+            "persistentPollingInterval": 5000
+          },
+          "title": "Round switch",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "targetDevice": {
+            "type": "device",
+            "deviceId": "356e4370-745b-11f0-aabc-4752a9b13c42"
+          }
+        },
+        "row": 0,
+        "col": 0,
+        "id": "d8b3e759-6c51-89e3-020c-c007076f3fe0"
+      },
+      "12a5e402-13e4-3788-3827-64efeddeb0af": {
+        "typeFullFqn": "system.control_widgets.round_switch",
+        "type": "rpc",
+        "sizeX": 2.5,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#e6e7e8",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "title": "Kamar 8",
+            "initialValue": false,
+            "retrieveValueMethod": "rpc",
+            "valueKey": "value",
+            "getValueMethod": "setValueRelay7",
+            "parseValueFunction": "return data ? true : false;",
+            "setValueMethod": "setValueRelay7",
+            "convertValueFunction": "return value;",
+            "requestTimeout": 500,
+            "requestPersistent": false,
+            "persistentPollingInterval": 5000
+          },
+          "title": "Round switch",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "targetDevice": {
+            "type": "device",
+            "deviceId": "356e4370-745b-11f0-aabc-4752a9b13c42"
+          }
+        },
+        "row": 0,
+        "col": 0,
+        "id": "12a5e402-13e4-3788-3827-64efeddeb0af"
+      }
+    },
+    "states": {
+      "default": {
+        "name": "Kos Project",
+        "root": true,
+        "layouts": {
+          "main": {
+            "widgets": {
+              "ed282042-4805-761b-ee0f-411820ff3d83": {
+                "sizeX": 3,
+                "sizeY": 3,
+                "row": 1,
+                "col": 4
+              },
+              "f4a0d5f2-6404-28f3-c83f-67b8a013a230": {
+                "sizeX": 3,
+                "sizeY": 3,
+                "row": 1,
+                "col": 8
+              },
+              "f5c339ca-3057-bbe5-0417-db7bb4b084ee": {
+                "sizeX": 3,
+                "sizeY": 3,
+                "row": 1,
+                "col": 12
+              },
+              "f5d6514b-c891-0f31-a905-d5c9f665b677": {
+                "sizeX": 3,
+                "sizeY": 3,
+                "row": 1,
+                "col": 16
+              },
+              "dcbc62ac-836f-feb8-f72c-737c6a986faa": {
+                "sizeX": 3,
+                "sizeY": 3,
+                "row": 5,
+                "col": 4
+              },
+              "b00de97d-0510-4e59-a44f-f5101fa60092": {
+                "sizeX": 3,
+                "sizeY": 3,
+                "row": 5,
+                "col": 8
+              },
+              "d8b3e759-6c51-89e3-020c-c007076f3fe0": {
+                "sizeX": 3,
+                "sizeY": 3,
+                "row": 5,
+                "col": 12
+              },
+              "12a5e402-13e4-3788-3827-64efeddeb0af": {
+                "sizeX": 3,
+                "sizeY": 3,
+                "row": 5,
+                "col": 16
+              }
+            },
+            "gridSettings": {
+              "layoutType": "default",
+              "backgroundColor": "#eeeeee",
+              "columns": 24,
+              "margin": 10,
+              "outerMargin": true,
+              "backgroundSizeMode": "100%"
+            }
+          }
+        }
+      }
+    },
+    "entityAliases": {},
+    "filters": {},
+    "timewindow": {
+      "displayValue": "",
+      "hideAggregation": false,
+      "hideAggInterval": false,
+      "hideTimezone": false,
+      "selectedTab": 0,
+      "realtime": {
+        "realtimeType": 0,
+        "interval": 1000,
+        "timewindowMs": 60000,
+        "quickInterval": "CURRENT_DAY",
+        "hideInterval": false,
+        "hideLastInterval": false,
+        "hideQuickInterval": false
+      },
+      "history": {
+        "historyType": 0,
+        "interval": 1000,
+        "timewindowMs": 60000,
+        "fixedTimewindow": {
+          "startTimeMs": 1754573188540,
+          "endTimeMs": 1754659588540
+        },
+        "quickInterval": "CURRENT_DAY",
+        "hideInterval": false,
+        "hideLastInterval": false,
+        "hideFixedInterval": false,
+        "hideQuickInterval": false
+      },
+      "aggregation": {
+        "type": "AVG",
+        "limit": 25000
+      }
+    },
+    "settings": {
+      "stateControllerId": "entity",
+      "showTitle": false,
+      "showDashboardsSelect": true,
+      "showEntitiesSelect": true,
+      "showDashboardTimewindow": true,
+      "showDashboardExport": true,
+      "toolbarAlwaysOpen": true
+    }
+  },
+  "name": "Kos Project",
+  "resources": []
+}
